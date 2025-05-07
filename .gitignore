@@ -1,0 +1,19 @@
+Entorno virtual
+
+venv/
+
+Archivos de Python
+
+pycache/ *.pyc
+
+Archivos de VS Code
+
+.vscode/
+
+Archivos generados
+
+*.log *.png *.pdf
+
+Credenciales
+
+.env

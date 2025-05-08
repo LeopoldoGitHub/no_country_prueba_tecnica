@@ -65,6 +65,10 @@ def clean_text(text):
         # Restaurar términos de IT
         for term in IT_TERMS:
             translated = translated.replace(f'__{term}__', term)
+        # Estandarizar traducciones específicas
+        translated = translated.replace('necesidad', 'necesitar')
+        translated = translated.replace('tan pronto como sea posible', 'asap')
+        translated = translated.replace('lo antes posible', 'asap')
         text = translated
 
     # Convertir a minúsculas

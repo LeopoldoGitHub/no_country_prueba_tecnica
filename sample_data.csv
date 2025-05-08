@@ -1,4 +1,101 @@
 userId,teamId,simulationId,type,text,timestamp
-     user123,teamA,sim2025,chat,¡Hola! Gran trabajo en el proyecto 😊🥳,2025-05-01 10:00:00
-     user456,teamB,sim2025,feedback,Need to fix bugs ASAP @devteam https://example.com,2025-05-01 11:00:00
-     user123,teamA,sim2025,reunion,Propongo optimizar el código 🚀,2025-05-01 12:00:00
+     user123,teamA,sim2025,chat,¡Gran trabajo en el proyecto! 😊🥳,2025-05-01 09:00:00
+     user456,teamB,sim2025,feedback,Need to fix bugs ASAP @devteam https://example.com,2025-05-01 09:30:00
+     user789,teamC,sim2025,reunion,Propongo optimizar el código 🚀,2025-05-01 10:00:00
+     user234,teamB,sim2025,chat,¡La reunión fue un éxito! 🎉,2025-05-01 10:30:00
+     user567,teamA,sim2025,feedback,The new feature looks great but needs testing @qa_team,2025-05-01 11:00:00
+     user890,teamC,sim2025,reunion,Necesitamos un nuevo plan para el backend 😓,2025-05-01 11:30:00
+     user123,teamA,sim2025,chat,¿Alguien sabe cómo configurar la API? 🤔,2025-05-01 12:00:00
+     user456,teamB,sim2025,feedback,El frontend está lento hay que optimizarlo 🐢,2025-05-01 12:30:00
+     user789,teamC,sim2025,reunion,Let’s deploy the update tomorrow @ops_team,2025-05-01 13:00:00
+     user234,teamB,sim2025,chat,¡Felicidades por el release! 🎊,2025-05-01 13:30:00
+     user567,teamA,sim2025,feedback,Los tests unitarios fallan en el módulo de login 😕,2025-05-01 14:00:00
+     user890,teamC,sim2025,chat,¿Podemos usar una nueva librería para el frontend? 🚀,2025-05-01 14:30:00
+     user123,teamA,sim2025,reunion,Revisemos el roadmap del proyecto 📅,2025-05-01 15:00:00
+     user456,teamB,sim2025,feedback,The API response time is too high @backend_team,2025-05-01 15:30:00
+     user789,teamC,sim2025,chat,¡Gran trabajo en el sprint! 👏,2025-05-01 16:00:00
+     user234,teamB,sim2025,reunion,Propongo automatizar los tests 🔧,2025-05-01 16:30:00
+     user567,teamA,sim2025,feedback,Need to debug the payment gateway ASAP,2025-05-01 17:00:00
+     user890,teamC,sim2025,chat,¿Alguien probó la nueva versión del servidor? 🤖,2025-05-01 17:30:00
+     user123,teamA,sim2025,feedback,El diseño de la UI necesita mejoras @design_team 😑,2025-05-01 18:00:00
+     user456,teamB,sim2025,reunion,Planifiquemos el próximo sprint 📋,2025-05-01 18:30:00
+     user789,teamC,sim2025,chat,¡El nuevo logo quedó increíble! 😍,2025-05-02 09:00:00
+     user234,teamB,sim2025,feedback,The database queries are too slow @db_team,2025-05-02 09:30:00
+     user567,teamA,sim2025,reunion,Necesitamos más recursos para el proyecto 💻,2025-05-02 10:00:00
+     user890,teamC,sim2025,chat,¿Qué opinan del nuevo framework? 🛠️,2025-05-02 10:30:00
+     user123,teamA,sim2025,feedback,Let’s improve the error handling @dev_team,2025-05-02 11:00:00
+     user456,teamB,sim2025,reunion,Revisemos los bugs reportados 🐞,2025-05-02 11:30:00
+     user789,teamC,sim2025,chat,¡Buen trabajo en la documentación! 📚,2025-05-02 12:00:00
+     user234,teamB,sim2025,feedback,The app crashes on mobile devices @mobile_team 😣,2025-05-02 12:30:00
+     user567,teamA,sim2025,reunion,Propongo un code review semanal 📝,2025-05-02 13:00:00
+     user890,teamC,sim2025,chat,¿Alguien configuró CI/CD? 🔄,2025-05-02 13:30:00
+     user123,teamA,sim2025,feedback,Need to optimize the search feature ASAP,2025-05-02 14:00:00
+     user456,teamB,sim2025,chat,¡El equipo está haciendo un gran trabajo! 🌟,2025-05-02 14:30:00
+     user789,teamC,sim2025,reunion,Discutamos la arquitectura del sistema 🏗️,2025-05-02 15:00:00
+     user234,teamB,sim2025,feedback,The login page needs better UX @ux_team 😐,2025-05-02 15:30:00
+     user567,teamA,sim2025,chat,¿Podemos acelerar el deploy? ⏩,2025-05-02 16:00:00
+     user890,teamC,sim2025,reunion,Revisemos el rendimiento del servidor 📊,2025-05-02 16:30:00
+     user123,teamA,sim2025,feedback,Let’s add more unit tests @qa_team,2025-05-02 17:00:00
+     user456,teamB,sim2025,chat,¡Felicidades por el nuevo feature! 🎈,2025-05-02 17:30:00
+     user789,teamC,sim2025,reunion,Propongo migrar a una nueva base de datos 🗄️,2025-05-02 18:00:00
+     user234,teamB,sim2025,feedback,The API documentation is incomplete @docs_team 📜,2025-05-02 18:30:00
+     user567,teamA,sim2025,chat,¿Alguien probó el nuevo endpoint? 🔗,2025-05-03 09:00:00
+     user890,teamC,sim2025,reunion,Planifiquemos el próximo release 📦,2025-05-03 09:30:00
+     user123,teamA,sim2025,feedback,Need to fix the caching issue ASAP,2025-05-03 10:00:00
+     user456,teamB,sim2025,chat,¡El sprint fue un éxito! 🏆,2025-05-03 10:30:00
+     user789,teamC,sim2025,reunion,Discutamos el feedback de los usuarios 🗣️,2025-05-03 11:00:00
+     user234,teamB,sim2025,feedback,The app needs better accessibility @a11y_team ♿,2025-05-03 11:30:00
+     user567,teamA,sim2025,chat,¿Podemos mejorar el tiempo de carga? ⚡,2025-05-03 12:00:00
+     user890,teamC,sim2025,reunion,Revisemos las métricas del proyecto 📈,2025-05-03 12:30:00
+     user123,teamA,sim2025,feedback,Let’s update the security protocols @security_team 🔒,2025-05-03 13:00:00
+     user456,teamB,sim2025,chat,¡Gran esfuerzo equipo! 🙌,2025-05-03 13:30:00
+     user789,teamC,sim2025,feedback,Need to enhance the dashboard @ui_team 🖥️,2025-05-03 14:00:00
+     user234,teamB,sim2025,reunion,Propongo un taller de capacitación 📚,2025-05-03 14:30:00
+     user567,teamA,sim2025,chat,¿Alguien revisó los logs del servidor? 📜,2025-05-03 15:00:00
+     user890,teamC,sim2025,feedback,The payment system is unstable @payment_team 😞,2025-05-03 15:30:00
+     user123,teamA,sim2025,reunion,Discutamos nuevas funcionalidades 🚀,2025-05-03 16:00:00
+     user456,teamB,sim2025,chat,¡El diseño responsive es genial! 📱,2025-05-03 16:30:00
+     user789,teamC,sim2025,feedback,Let’s optimize the database indexes @db_team,2025-05-03 17:00:00
+     user234,teamB,sim2025,reunion,Revisemos el plan de testing 🧪,2025-05-03 17:30:00
+     user567,teamA,sim2025,chat,¿Podemos integrar una nueva API? 🔌,2025-05-03 18:00:00
+     user890,teamC,sim2025,feedback,Need to improve session management ASAP,2025-05-03 18:30:00
+     user123,teamA,sim2025,chat,¡El equipo está muy motivado! 💪,2025-05-04 09:00:00
+     user456,teamB,sim2025,reunion,Propongo un hackathon interno 💡,2025-05-04 09:30:00
+     user789,teamC,sim2025,feedback,The app needs better error messages @ux_team 😕,2025-05-04 10:00:00
+     user234,teamB,sim2025,chat,¿Alguien probó la nueva funcionalidad? 🆕,2025-05-04 10:30:00
+     user567,teamA,sim2025,reunion,Discutamos el presupuesto del proyecto 💰,2025-05-04 11:00:00
+     user890,teamC,sim2025,feedback,Let’s enhance the onboarding process @team,2025-05-04 11:30:00
+     user123,teamA,sim2025,chat,¡El nuevo módulo es increíble! 🌟,2025-05-04 12:00:00
+     user456,teamB,sim2025,reunion,Revisemos el cronograma del proyecto ⏰,2025-05-04 12:30:00
+     user789,teamC,sim2025,feedback,The server crashes under load @ops_team 😣,2025-05-04 13:00:00
+     user234,teamB,sim2025,chat,¿Podemos mejorar la documentación? 📝,2025-05-04 13:30:00
+     user567,teamA,sim2025,reunion,Propongo un nuevo flujo de trabajo 🔄,2025-05-04 14:00:00
+     user890,teamC,sim2025,feedback,Need to fix the notification system ASAP,2025-05-04 14:30:00
+     user123,teamA,sim2025,chat,¡Gran colaboración en el proyecto! 🤝,2025-05-04 15:00:00
+     user456,teamB,sim2025,reunion,Discutamos la integración con terceros 🛠️,2025-05-04 15:30:00
+     user789,teamC,sim2025,feedback,The app needs better performance @dev_team ⚡,2025-05-04 16:00:00
+     user234,teamB,sim2025,chat,¿Alguien configuró el entorno de staging? 🖥️,2025-05-04 16:30:00
+     user567,teamA,sim2025,reunion,Revisemos los KPIs del proyecto 📊,2025-05-04 17:00:00
+     user890,teamC,sim2025,feedback,Let’s improve the logging system @ops_team,2025-05-04 17:30:00
+     user123,teamA,sim2025,chat,¡El equipo está superando expectativas! 🏅,2025-05-04 18:00:00
+     user456,teamB,sim2025,reunion,Propongo un plan de backup 🗄️,2025-05-04 18:30:00
+     user789,teamC,sim2025,feedback,The app needs better localization @i18n_team 🌍,2025-05-05 09:00:00
+     user234,teamB,sim2025,chat,¿Podemos optimizar las consultas SQL? 🗃️,2025-05-05 09:30:00
+     user567,teamA,sim2025,reunion,Discutamos la escalabilidad del sistema 📈,2025-05-05 10:00:00
+     user890,teamC,sim2025,feedback,Need to enhance the analytics module ASAP,2025-05-05 10:30:00
+     user123,teamA,sim2025,chat,¡El nuevo diseño es espectacular! 🎨,2025-05-05 11:00:00
+     user456,teamB,sim2025,reunion,Revisemos el feedback del cliente 🗣️,2025-05-05 11:30:00
+     user789,teamC,sim2025,feedback,The app needs better testing coverage @qa_team 🧪,2025-05-05 12:00:00
+     user234,teamB,sim2025,chat,¿Alguien revisó la seguridad de la API? 🔐,2025-05-05 12:30:00
+     user567,teamA,sim2025,reunion,Propongo un nuevo pipeline de CI/CD 🔄,2025-05-05 13:00:00
+     user890,teamC,sim2025,feedback,Let’s optimize the frontend performance @ui_team,2025-05-05 13:30:00
+     user123,teamA,sim2025,chat,¡El equipo está muy comprometido! 💙,2025-05-05 14:00:00
+     user456,teamB,sim2025,reunion,Discutamos el plan de lanzamiento 🚀,2025-05-05 14:30:00
+     user789,teamC,sim2025,feedback,The app needs better user flows @ux_team 🛤️,2025-05-05 15:00:00
+     user234,teamB,sim2025,chat,¿Podemos mejorar el sistema de notificaciones? 🔔,2025-05-05 15:30:00
+     user567,teamA,sim2025,reunion,Revisemos el plan de recuperación 🛡️,2025-05-05 16:00:00
+     user890,teamC,sim2025,feedback,Need to fix the export feature ASAP,2025-05-05 16:30:00
+     user123,teamA,sim2025,chat,¡Gran trabajo en el último sprint! 🏁,2025-05-05 17:00:00
+     user456,teamB,sim2025,reunion,Propongo un análisis post-mortem 📊,2025-05-05 17:30:00
+     user789,teamC,sim2025,feedback,The app needs better caching @backend_team 🗄️,2025-05-05 18:00:00
+     user234,teamB,sim2025,chat,¡El proyecto va por buen camino! 🌈,2025-05-05 18:30:00

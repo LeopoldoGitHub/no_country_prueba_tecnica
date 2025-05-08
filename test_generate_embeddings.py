@@ -7,7 +7,7 @@ data_path = 'sample_data.csv'
 try:
     # Generar embeddings
     results = generate_embeddings(data_path)
-    for result in results:
+    for result in results[:5]:  # Mostrar solo los primeros 5 para no saturar la consola
         print(f"userId: {result['userId']}")
         print(f"Texto original: {result['text']}")
         print(f"Texto limpio: {result['cleaned_text']}")

@@ -1,0 +1,4 @@
+userId,teamId,simulationId,type,text,timestamp
+     user123,teamA,sim2025,chat,¡Hola! Gran trabajo en el proyecto 😊🥳,2025-05-01 10:00:00
+     user456,teamB,sim2025,feedback,Need to fix bugs ASAP @devteam https://example.com,2025-05-01 11:00:00
+     user123,teamA,sim2025,reunion,Propongo optimizar el código 🚀,2025-05-01 12:00:00

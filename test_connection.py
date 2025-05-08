@@ -13,8 +13,9 @@ try:
         port=os.getenv("DB_PORT")
     )
     cur = conn.cursor()
-    cur.execute("SELECT * FROM embeddings LIMIT 1")
-    print("Conexión exitosa, tabla embeddings encontrada!")
+    cur.execute("SELECT * FROM sentiment_topics LIMIT 1")
+    print("Conexión exitosa, tabla sentiment_topics encontrada!")
+    conn.close()
     conn.close()
 except Exception as e:
     print(f"Error de conexión: {e}")

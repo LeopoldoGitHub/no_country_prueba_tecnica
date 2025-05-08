@@ -1,8 +1,13 @@
 No Country - Prueba Técnica: Generación y Guardado de Embeddings
+
 Contexto
+
 No Country es una plataforma que valida el comportamiento del talento digital a través de simulaciones laborales colaborativas. El Squad de Datos transforma interacciones en evidencia estructurada para perfiles y dashboards. Esta prueba técnica implementa la Funcionalidad 1: Generación y Guardado de Embeddings, priorizando una base sólida para análisis semántico y consultas RAG.
+
 Justificación de la Elección
+
 Elegí la Funcionalidad 1 porque es fundamental para el análisis semántico y las consultas RAG, herramientas clave para entender patrones de comportamiento y generar insights personalizados. Implementarla primero garantiza un sistema sólido que procese textos de manera eficiente, genere embeddings y elimine duplicados, mejorando la validación de talento. Además, decidí priorizar esta funcionalidad sobre el análisis de sentimiento y tópicos para asegurar una base confiable antes de agregar procesos más avanzados.
+
 Stack Utilizado
 
 Lenguaje: Python
@@ -14,6 +19,7 @@ Control de Versiones: GitHub
 Librerías Adicionales: pandas, nltk, transformers, psycopg2, supabase, emoji, langdetect, sentencepiece, sacremoses
 
 Implementación
+
 La solución procesa textos de interacciones, genera embeddings, los almacena en Supabase, y ofrece un endpoint para verificar duplicados. Se implementó limpieza de texto para mejorar la calidad de los embeddings.
 1. Estructura del Proyecto
 no_country_prueba_tecnica/
